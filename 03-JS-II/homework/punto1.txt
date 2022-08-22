@@ -1,0 +1,15 @@
+* `for`: Un bucle del tipo "for" sirve para repetir un bloque de código varias veces, definiendo 
+condición y paso.
+
+* `&&`, `||`, `!`: los operadores lógicos funcionan como los operadores matemáticos pero para datos 
+booleanos, un operador recibe 2 operandos y retorna un resultado "i" el valor del mismo es true
+solo si los dos operandos lo son también.
+
+El operador "&&" ("Y" o "AND") sirve para comparar 2 expresiones y devolver true 
+solo si las dos son positivas, de lo contrario el resultado será false.
+
+El operador "||" ("O" u "OR") sirve para comparar 2 expresiones y devolver true 
+si una o ambas son positivas, de lo contrario el resultado será false.
+
+El operador "!" ("NO" o "NOT") devolverá el valor booleano contrario al que 
+devolvería en el caso de no estar este mismo.
