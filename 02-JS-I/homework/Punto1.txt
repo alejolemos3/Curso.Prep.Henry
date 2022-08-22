@@ -1,0 +1,20 @@
+* Variables: Una variable es una palabra clave a la cual se le puede asignar cualquier
+dato (string, number, boolean), objeto, función, etc.
+
+* Strings: Una string es una cadena de caracteres que siempre va entre comillas, ya sean
+simples o dobles, cualquier texto entre comillas es una string.
+Ejemplos: 'Hola soy henry' es una string, "ho♀er╥♣60╥" es una string,
+'Homework.js' es una string, y así con cualquier texto entre comillas.
+
+* Funciones (argumentos, `return`): Una función es un objeto del tipo "Callable objets" 
+(Objetos invocables), tienen las mismas propiedades que cualquier otro objeto. 
+Un argumento es una variable que usamos dentro de la función para asignarle un dato
+a la hora de ejecutar dicha función. Return es una declaración que usamos dentro de una función
+para que retorne algo, ya sea un dato, una variable, un problema matemático, etc.
+
+* Declaraciones `if`: Las declaraciones "if" se usan para que nuestra función verifique si algo 
+es true o false (positivo o negativo).
+ 
+* Valores booleanos (`true`, `false`): Los valores booleanos son en lo que se basa el código
+binario, ej: 0110001010, que significa 1: activar o 0: desactivar, en JavaScript se usa esta lógica para
+saber si algo es true o false.
