@@ -1,0 +1,44 @@
+* Objetos: Un objeto es un contenedor de datos parecido a un array, la diferencia es que los arrays pueden contener muchos elementos 
+relacionados entre sí, y los objetos tienen mucha información sobre una sola cosa, dentro de un objeto se pueden definir muchas 
+propiedades separadas por una coma y entre llaves, ejemplo:
+
+emanuel = {
+    nombre: 'Emanuel',
+    apellido: 'Gamarra',
+    edad: 47,
+    saludar: 'Hola Emanuel';
+}
+
+
+* Propiedades: Una propiedad contiene un valor dentro de un objeto, tomando el ejemplo anterior:
+emanuel es el objeto, nombre es una propiedad, y 'Emanuel' es el valor dentro de la propiedad nombre.
+
+
+* Métodos: Un método es una función dentro de una propiedad, ejemplo:
+
+    nombreYApellido: function () {
+        console.log(this.nombre + ' ' + this.apellido)
+
+* Bucle `for…in`: un bucle for…in, es una forma de repetición o 'bucle' que sirve para iterar entre todos los índices de un objeto,
+definiendo una variable, la cual va a tener como valor el índice en el que se encuentra dentro del objeto.
+Ejemplo: 
+
+var names = ['Manuel', 'Toni', 'Facundo', 'Marta']
+
+function recorrerArray(names) {
+    for(let name in names) {
+        console.log(name);
+        console.log(names[name]);
+    }
+}
+
+recorrerArray();
+
+Acá lo que hicimos es que la variable 'name' pase por cada valor dentro de 'nombres' y lo muestre uno por uno.
+
+
+* Notación de puntos vs notación de corchetes: La notación de corchetes (objeto['propiedad']) la usamos para ver una propiedad dentro de
+un objeto, la notación de puntos (objeto.propiedad) es una forma más rápida de hacerlo, pero solo sirve para hacerlo con el nombre de 
+una propiedad directamente, ejemplo: si definimos que: var i = propiedadx, podemos hacer objeto[i] y nos va a retornar el valor que 
+hay en propiedadx, pero si hacemos objeto.i no va a retornar nada porque no hay una propiedad llamada 'i', tendríamos que hacer:
+objeto.propiedadx para ver el valor de propiedadx usando la notación de puntos.

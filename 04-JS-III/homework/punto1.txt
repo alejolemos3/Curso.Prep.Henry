@@ -1,0 +1,6 @@
+* Arrays: Un array es una cadena que contiene cualquier tipo de valores (strings, numbers, booleans), funciones y objetos 
+separados por una coma, entre corchetes. Cada uno tiene su lugar, a este se lo denomina índice, es de valor numérico y 
+avanza de forma ascendente empezando por el 0, ejemplo:
+array = ['hola', 87, function henry(){console.log('soyhenry.com')}, true, undefined, false].
+'hola' estaría en el índice sub 0, 87 en el 1, la función en el 2, y asi sucesivamente.
+Para invocar cada valor del array se usa array[0], array[1], array[2], ect.

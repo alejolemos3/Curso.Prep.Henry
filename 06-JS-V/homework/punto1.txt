@@ -1,0 +1,9 @@
+* `prototype`: Un protoype es una referencia para que los objetos tengan ciertos valores predefinidos, es decir, las funciones, propiedades, etc., 
+que tengan los prototypes también los van a tener sus objetos correspondientes, ejemplo:
+
+el objeto 'String' que viene predefinido en js, tiene la funcion .length, entonces,
+si hacemos 'cualquier string'.length, va a funcionar porque todas las strings tienen como prototype al objeto 'String'.
+
+
+* _Constructors_ (de Clases): Un constructor de clases es una función que sirve para crear objetos a través de un prototipo, ejemplo: 
+si la clase Persona tiene en su interior las propiedades: nombre, edad, dirección, podemos usar un constructor para crear un objeto con esas propiedades dándole un valor a cada una.
